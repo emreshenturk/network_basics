@@ -34,3 +34,19 @@ DHCP infos:
 
 ## NAT
 NAT (Network Address Translation) converts private IP addresses to public IP addresses. It keeps a table to track these mappings and always matches them when the device accesses the internet.
+
+## ifconfig command in Kali
+eth0:
+* flags: The flags show the properties BROADCAST, RUNNING, and MULTICAST.
+* mtu 1500: It stands for Maximum Transmission Unit; it indicates the largest size of data (in bytes) that can be sent in a single packet.
+* innet: Out local ip address.
+* netmask: It is the subnet mask.
+* broadcast: The broadcast address used to send data to all devices on the network.
+* inet6: The IPv6 address of the device.
+* ether: The device’s MAC address; it is the unique physical identifier of the hardware.
+* RX packets / TX packets: Statistics showing the number of received (RX) and transmitted (TX) packets, the amount of data, and any errors if present.
+
+lo: 
+* The IP address of this interface is always 127.0.0.1 (localhost). When you run a web server on your own machine, you access it through the lo interface.
+
+
