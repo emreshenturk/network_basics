@@ -39,7 +39,7 @@ NAT (Network Address Translation) converts private IP addresses to public IP add
 eth0:
 * flags: The flags show the properties BROADCAST, RUNNING, and MULTICAST.
 * mtu 1500: It stands for Maximum Transmission Unit; it indicates the largest size of data (in bytes) that can be sent in a single packet.
-* innet: Out local ip address.
+* innet: Our local ip address.
 * netmask: It is the subnet mask.
 * broadcast: The broadcast address used to send data to all devices on the network.
 * inet6: The IPv6 address of the device.
