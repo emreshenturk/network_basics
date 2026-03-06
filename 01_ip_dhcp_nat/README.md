@@ -30,7 +30,7 @@ There are not enough public IPv4 addresses, so private IP addresses are reserved
 
 DHCP infos:
 * DHCP works on the seventh layer (Application layer) of the OSI model. It uses UDP ports 67 and 68.
-* A DHCP server can assign 256 IP addresses, but only 254 are usable. 192.168.0.0 is the network address, 192.168.0.255 is the broadcast address, and 192.168.0.1 is usually used by the server itself.
+* A DHCP server can assign 256 IP addresses, but only 254 are usable. 192.168.0.0 is the network address, 192.168.0.255 is the broadcast address.
 
 ## NAT
 NAT (Network Address Translation) converts private IP addresses to public IP addresses. It keeps a table to track these mappings and always matches them when the device accesses the internet.
